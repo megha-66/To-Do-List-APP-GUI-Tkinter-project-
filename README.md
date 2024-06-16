@@ -1,1 +1,1 @@
-# To-Do-List-APP-GUI-Tkinter-project-
+This project uses Tkinter in Python to build a To-Do List.
