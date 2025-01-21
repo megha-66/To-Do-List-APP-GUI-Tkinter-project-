@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jun 16 23:52:15 2024
-
-@author: prach
-"""
 
 import tkinter
 from tkinter import * 
