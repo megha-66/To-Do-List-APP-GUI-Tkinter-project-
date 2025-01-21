@@ -10,10 +10,10 @@ from tkinter import *
 from pathlib import Path 
 import sys 
 
-if getattr(sys, 'frozen', False):  # If running as a bundled app
-    base_dir = Path(sys._MEIPASS)  # Temporary PyInstaller directory
+if getattr(sys, 'frozen', False): 
+    base_dir = Path(sys._MEIPASS)  
 else:
-    base_dir = Path(r"C:\Users\prach\OneDrive\Documents\Desktop\tkinterproj")
+    base_dir = Path(r"<path-to-your-main-directory>")  #Follow the directory structure as mentioned in README.md.
     
 
 path1 = base_dir/'images'/'topicon.png'
