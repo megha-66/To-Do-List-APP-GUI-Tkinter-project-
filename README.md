@@ -23,8 +23,8 @@ pip install tkinter
 > 6. To be precise your directory structure should look like - 
 
 ```
-your_project/
-├── app.py
+your_projecr/
+├── to-do-list.py
 ├── images/
 │   ├── image1.png
 │   ├── image2.png
