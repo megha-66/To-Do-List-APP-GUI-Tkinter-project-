@@ -1,4 +1,9 @@
-This project uses Tkinter in Python to build a Progress list for a work.(It can be used like a to-do list).
+## Description 
+#### This project uses Tkinter in Python to build a Progress list for a work
+> It can be used like a to-do list. 
+
+#### There is a single source code file, which does all the job. 
+
 
 ![resized](https://github.com/megha-vaswani2309/To-Do-List-APP-GUI-Tkinter-project-/assets/128133837/29773fdd-7277-4e73-b51a-be831a419f90)
 
