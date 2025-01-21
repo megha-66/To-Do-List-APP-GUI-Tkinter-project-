@@ -21,7 +21,7 @@ path2 = base_dir / 'images' / 'toptitlebar.png'
 path3 = base_dir/'images'/'deletebutton.png'
 
 root = Tk()
-root.title("Python-Developer Progress")
+root.title("To-Do-List")
 root.geometry("400x650+400+100")
 root.resizable(False, False)
 
@@ -32,7 +32,7 @@ def addProgress():
     task_entry.delete(0,END)
     
     if task :
-        with open("progresslist.txt", 'a') as taskfile:
+        with open("items.txt", 'a') as taskfile:
             taskfile.write(f"\n{task}")
         task_list.append(task)
         listbox.insert(END,task)
@@ -42,7 +42,7 @@ def deleteProgress():
     task = str(listbox.get(ANCHOR))
     if task in task_list:
        task_list.remove(task)
-       with open("progresslist.txt", "w") as taskfile:
+       with open("items.txt", "w") as taskfile:
            for task in task_list:
                taskfile.write(task+"\n")
                
@@ -54,7 +54,7 @@ def openTaskfile():
     
     try : 
         global task_list 
-        with open("progresslist.txt", "r") as taskfile:
+        with open("items.txt", "r") as taskfile:
             tasks= taskfile.readlines()
         
         for task in tasks:
@@ -63,7 +63,7 @@ def openTaskfile():
                 listbox.insert(END, task)
                 
     except :
-       file = open('progresslist.txt','w')
+       file = open('items.txt','w')
        file.close()            
 
 #icon
@@ -77,7 +77,7 @@ TopImage = PhotoImage(file = str(path2))
 Label(root, image = TopImage).pack()
 
 #heading_bar
-heading = Label(root, text = "List the progress", font = "arial 16 bold", fg = "white", bg = "#32405b")
+heading = Label(root, text = "List all the items/works", font = "arial 16 bold", fg = "white", bg = "#32405b")
 heading.place(x=130, y=20)
 
 #main
