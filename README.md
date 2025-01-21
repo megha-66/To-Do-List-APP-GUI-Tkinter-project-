@@ -19,7 +19,8 @@ pip install pyinstaller
 pip install tkinter
 ```
 > 4. Set the base directory `base_dir` by giving a path from desktop to it. 
-> 5. Update path1, path2 and path3 fro the images. Note : You need to keep all 3 images under a folder named `images` exactly to use the same variables. 
+> 5. Update path1, path2 and path3 for the images. 
+>> Note : You need to keep all 3 images under a folder named `images` exactly to use the same variables. 
 > 6. To be precise your directory structure should look like - 
 
 ```
