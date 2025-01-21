@@ -40,6 +40,7 @@ for Windows.
 
 ###### Congratulations, You did set up the app successfully!
 
+#### All the items/tasks you mention in the list get saved in an items.txt file. 
 
 
 
